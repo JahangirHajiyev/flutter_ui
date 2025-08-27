@@ -9,7 +9,13 @@ class Containerexamplewidget extends StatelessWidget {
       color: Colors.red,
       padding: const EdgeInsets.all(10),
       margin: const EdgeInsets.all(10),
-      child: const Placeholder(color: Colors.blue),
+      child: const Center(
+          child: Text("Hello World")),
     );
   }
 }
+
+
+
+//const Center(widthFactor: 100, heightFactor: 50child: Text("Hello World"))-
+//можно изменять по высоте и ширине
