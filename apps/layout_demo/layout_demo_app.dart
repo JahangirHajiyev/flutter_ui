@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:projects/apps/layout_demo/single_child_layouts/align_example_widget.dart';
 import 'package:projects/apps/layout_demo/single_child_layouts/aspect_ratio_example_widget.dart';
+import 'package:projects/apps/layout_demo/single_child_layouts/baseline_example_widget.dart';
 import 'package:projects/apps/layout_demo/single_child_layouts/center_example_widget.dart';
 import 'package:projects/apps/layout_demo/single_child_layouts/container_example_widget.dart';
+import 'package:projects/apps/layout_demo/single_child_layouts/expanded_example_widget.dart';
 import 'package:projects/apps/layout_demo/single_child_layouts/padding_example_widget.dart' show PaddingExampleWidget;
 import 'package:projects/apps/layout_demo/single_child_layouts/sized_box_example_widget.dart';
 
@@ -25,7 +27,9 @@ class LayoutDemoApp extends StatelessWidget {
             //PaddingExampleWidget()
             //CenterExampleWidget()
             //AlignExampleWidget()
-            AspectRatioExampleWidget()
+            //AspectRatioExampleWidget()
+            //BaselineExampleWidget()
+            ExpandedExampleWidget()
           ],
         )
       ),
